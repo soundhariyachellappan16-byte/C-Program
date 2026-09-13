@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+  int a = 1;
+  int b = 2;
+  int c = 3;
+  int ab = a+b;
+  int bc = b+c;
+  int ca = c+a;
+  printf("%d\n", ab );
+  printf("%d\n", bc );
+  printf("%d\n", ca );
+  
+  if (ab<bc && ca<bc)
+     printf("the greater number is %d", bc);
+  else if (bc<ca && ab<ca)
+     printf("the greater number is %d", ca);
+  else
+     printf("the greater number is %d", ab);
+    
+  
+  return 0;
+  
+ } 
