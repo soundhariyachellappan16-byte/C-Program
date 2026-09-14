@@ -1,0 +1,13 @@
+include<stdio.h>
+int main()
+{
+    int num = 15;
+    float number = 16.10;
+    char alpha[] = "soundhariya";
+
+    printf("%d\n",num);
+    printf("%f\n",number);
+    printf("%s\n", alpha);
+    return 0;#
+
+}
