@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    int length = 25;
+    int width = 35;
+    int area ;
+    area = length *width;
+    printf("the length of the rectangale is :%d\n ",length);
+    printf("the width of the rectangale is :%d\n ",width);
+    printf("the area  of the rectangale is :%d\n ",area);
+    
+    return 0;
+}
