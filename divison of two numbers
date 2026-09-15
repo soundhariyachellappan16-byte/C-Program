@@ -1,0 +1,9 @@
+
+#include<stdio.h>
+int main()
+{
+    float x = 145;
+    float y = 2;
+    printf("%.3f",x/y);
+    return 0;
+}
