@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include<math.h>
+int main() 
+{
+    int arealand ,areacube , lengthland , lengthcube,volume;
+    arealand=10000;
+    lengthland=sqrt(arealand);
+    lengthcube = lengthland-10;
+    printf("the length of the cube is :%d\n", lengthcube);
+    areacube= 6*lengthcube *lengthcube;
+    volume = lengthcube*lengthcube*lengthcube;
+    printf("the area of the cube is :%d\n", areacube);
+    printf("the volume of the cube is %d\n", volume);
+    return 0;
+}
