@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int a ,b , c,average,sum;
+    printf("the value of a is:");
+    scanf("%d",&a);
+    printf("the value of b is:");
+    scanf("%d",&b);
+    printf("the value of c is:");
+    scanf("%d",&c);
+    sum = a+b+c;
+    average = sum/3;
+    printf(" the average of three numbers is :%d", average);
+    
+    return 0;
+}
