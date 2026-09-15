@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int a ,b , c,average,sum;
+    a=30,b=39,c=36;
+    sum = a+b+c;
+    average = sum/3;
+    printf(" the average of three numbers is :%d", average);
+    
+    return 0;
+}
