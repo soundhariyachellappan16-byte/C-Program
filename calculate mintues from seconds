@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+int main()
+{
+    float seconds,mintues;
+    printf("enter the nummber of second\n");
+    scanf("%f",&seconds);
+    mintues = seconds/60;
+    printf("the total number of mintues is : %f", mintues);
+    return 0;
+}
