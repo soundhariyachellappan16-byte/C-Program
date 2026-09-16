@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int myage=18,votingage=18;
+    if (myage>=votingage)
+        printf("old enough to vote ");
+    else
+        printf("not eligible");
+    return 0;
+}
