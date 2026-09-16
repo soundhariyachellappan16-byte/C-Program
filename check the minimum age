@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+    int age =100,minage =18;
+    printf("%d",age>=minage);
+    return 0;
+}
