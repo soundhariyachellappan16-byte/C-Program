@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int itemprice =500 , shippingcost =50;
+    int sum;
+    sum = itemprice + shippingcost;
+    printf("the total cost is : %d\n", sum);
+    return 0;
+}
