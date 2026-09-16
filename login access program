@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdbool.h>
+int main()
+{
+    bool isloggedin;
+    printf("have you logged in(true =1  or false = 0):\n");
+    scanf("%d", &isloggedin);
+    
+    bool isadmin;
+    printf("are you admin(true=1 or false=0):\n");
+    scanf("%d",&isadmin);
+    int securitylevel;
+    printf("enter the security level\n");
+    scanf("%d",&securitylevel);
+    if(isloggedin && isadmin || securitylevel>3)
+      printf("login successful  ");
+    else
+        printf("access denied");
+    return 0;
+}
