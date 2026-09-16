@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int marks ;
+    printf("enter the marks obtained ");
+    scanf("%d",&marks);
+    (marks >= 80)? printf("good job"): printf("needs improvement");
+    return 0;
+}
