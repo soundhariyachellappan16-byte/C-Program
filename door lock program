@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int doorpin;
+    printf("enter the door pin");
+    scanf("%d",&doorpin);
+    if (doorpin == 7890)
+        printf("the pin is correct \n the door is open");
+    else
+        printf("the pin is incorrect \n enter the correct pin");
+    return 0;
+}
