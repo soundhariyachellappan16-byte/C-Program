@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+    int choice;
+    printf("enter your choice 1 for coffee and 2 for tea\n");
+    scanf("%d",&choice);
+    switch(choice){
+        case 1:
+          printf("coffee is your preferred choice\n");
+          break;
+        case 2:
+          printf("tea is your preferred choice\n");
+          break;
+        default :
+          printf(" your choice is not available choose either 1 or 2");
+          break;
+                    
+    }
+        
+    
+    return 0;
+}
