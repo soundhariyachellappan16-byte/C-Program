@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main ()
+{
+    int i ,j;
+    printf("the output of outer loop\n");
+    for (i=0;i<=10;i++){
+        printf("%d\n",i);
+    }
+    printf("the output of inner loop\n");
+    for (j=0;j<=5;j++){
+        printf("%d\n",j);
+    }
+    return 0;
+}
