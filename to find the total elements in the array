@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int mynumbers[]= {10,20,30,40,50,60,70};
+    int totalelements = sizeof(mynumbers)/sizeof(mynumbers[0]);
+    printf("%d",totalelements);
+    return 0;
+}
