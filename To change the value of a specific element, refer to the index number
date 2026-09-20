@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+    int numbers[] = {25,50,75,200};
+    numbers[3]=100;
+    printf("%d", numbers[3]);
+    return 0;
+}
