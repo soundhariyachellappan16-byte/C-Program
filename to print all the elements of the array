@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int i;
+    int numbers[] = {25,50,75,200};
+    numbers[3]=100;
+    for(i=0;i<=3;i++){
+        
+    
+    printf("%d\n", numbers[i]); 
+    }
+    
+    return 0;
+}
